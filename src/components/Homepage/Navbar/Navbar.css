@@ -30,7 +30,7 @@
   }
   
 .side > a:hover {
-    color: darkorchid;
+    color: darkred;
     transform: scaleX(1.2);
   }
 

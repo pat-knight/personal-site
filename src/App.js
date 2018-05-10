@@ -5,6 +5,7 @@ import Projects from './components/Projects/Projects';
 import Footer from './components/Footer/Footer';
 import About from './components/About/About';
 import Contact from './components/Contact/Contact';
+import Break from './components/Break/Break';
 
 class App extends Component {
   render() {
@@ -12,7 +13,9 @@ class App extends Component {
       <div className="App">
         <Homepage />
         <About />
+        <Break type='portfolio' />
         <Projects />
+        <Break type='contacts' />
         <Contact />
         <Footer />
       </div>

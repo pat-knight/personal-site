@@ -1,0 +1,19 @@
+.break-image {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.break-container{
+    position: absolute;
+}
+
+.break-text {
+    font-size: 2em;
+}
+

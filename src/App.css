@@ -5,6 +5,8 @@ body {
 #homepage {
   background-image: url('./background.jpg');
   /* position: fixed; */
+  background-attachment: fixed;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height:100vh;

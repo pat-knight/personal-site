@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
 import './Homepage.css';
 import Navbar from './Navbar/Navbar';
+import BackgroundImage from './BackgroundImage/BackgroundImage';
+// const image = './BackgroundImage/background.jpg'
+
 
 class Homepage extends Component {
 
@@ -10,6 +13,7 @@ class Homepage extends Component {
     render() {
         return (
             <div id='homepage'>
+                {/* <BackgroundImage imageURL={image} /> */}
                 <h2 id='intro'>
                     Simply said, I design & I code.
                 </h2>

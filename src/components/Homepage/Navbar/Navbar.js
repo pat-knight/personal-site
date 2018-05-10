@@ -5,17 +5,23 @@ class Navbar extends Component {
     render() {
         return (
             <div className='side'>
-                <a className='page-link'>
+                <a 
+                href='#projects-section'
+                className='page-link'>
                     <span className='strike'>
                     Projects
                     </span>
                 </a>
-                <a className='page-link'>
+                <a 
+                href='about-section'
+                className='page-link'>
                     <span className='strike'>
                     About
                     </span>
                 </a>
-                <a className='page-link'>
+                <a 
+                href='contact-section'
+                className='page-link'>
                     <span className='strike'>
                     Contact
                     </span>

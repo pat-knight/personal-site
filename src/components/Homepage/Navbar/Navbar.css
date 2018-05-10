@@ -27,10 +27,11 @@
 .side > a {
     position: relative;
     text-decoration: none;
+    color: inherit;
   }
   
 .side > a:hover {
-    color: darkred;
+    color: rgba(231, 126, 231, 0.904);
     transform: scaleX(1.2);
   }
 

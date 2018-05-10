@@ -9,12 +9,28 @@ class Portfolio extends Component {
 	render() {
 		return (
 			<div id="portfolio">
-				<ul className="open-games">
-					{/* {this.props.gameList.map(game => (
-						<li key={game.name} data-name={game.name} className="open-game" onClick={this.joinGame}>
-							{game.name} - {game.status}
-						</li>
-					))} */}
+				<ul id="project-categories">
+					<li 
+						className='category'
+						id='react'>
+							React
+					</li>
+					<li 
+						className='category'
+						id='fullstack'>
+							Fullstack
+					</li>
+					<li 
+						className='category'
+						id='node'>
+							Node
+					</li>
+					<li 
+						className='category'
+						id='group-projects'>
+						Group Projects
+					</li>
+					
 				</ul>
 			</div>
 		);

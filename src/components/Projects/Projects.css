@@ -4,3 +4,7 @@
     max-width: 900px;
     margin: auto;
 }
+
+#projects-section > h2 {
+    margin: auto;
+}

@@ -12,7 +12,7 @@ class Contact extends Component {
         return (
             <section id='contact-section'>
                 <h2>
-                    Contact Details
+                    {/* Contact Details */}
                 </h2>
                 
             </section>

@@ -12,9 +12,7 @@ class Footer extends Component {
     render() {
         return (
             <div id='footer'>
-                <h6 id='copyright'>
-                    Copyright Pat Knight 2018
-                </h6>
+                
                 <div id='icons'>
                     <a 
                         className='icon-link'
@@ -33,6 +31,9 @@ class Footer extends Component {
                         <GoMail />
                     </a>    
                 </div>
+                <h6 id='copyright'>
+                    Copyright Pat Knight 2018
+                </h6>
             </div>
         )
     }

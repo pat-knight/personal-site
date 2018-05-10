@@ -10,7 +10,8 @@
     display: inherit;
     justify-content: center;
     align-items: center;
-    width: 20vw;
+    color: #fff;
+    width: 15%;
     height: 15vh;
     background-color: rgba(136, 130, 130, 0.863);
     transition: cubic-bezier(0.755, 0.05, 0.855, 0.06);
@@ -18,11 +19,12 @@
     -webkit-transition: all 1s ease-out;
 }
 
-.category:hover {
+.category:hover, .category:focus {
     transform: scalex(1.05);
     transition: all 1s ease-out;
     -webkit-transition: all 1s ease-out;
-    border-bottom: solid 1px grey;
+    box-shadow: 1px 6px 10px 0px rgba(0, 0, 0, 0.5);
+    opacity: .8;
 }
 
 .category:after {

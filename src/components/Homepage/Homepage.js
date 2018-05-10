@@ -15,7 +15,7 @@ class Homepage extends Component {
             <div id='homepage'>
                 {/* <BackgroundImage imageURL={image} /> */}
                 <h2 id='intro'>
-                    Simply said, I design & I code.
+                    pat knight
                 </h2>
                 <Navbar />
             </div>

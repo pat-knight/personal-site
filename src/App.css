@@ -1,6 +1,8 @@
 body {
   overflow-x: hidden;
   color: #777;
+  /* background-color:  */
+  display: flex;
 }
 
 #homepage {

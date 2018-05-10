@@ -31,7 +31,7 @@
   }
   
 .side > a:hover {
-    color: rgba(231, 126, 231, 0.904);
+    color: rgba(255, 255, 255, 0.904);
     transform: scaleX(1.2);
   }
 

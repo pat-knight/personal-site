@@ -13,14 +13,14 @@ class Navbar extends Component {
                     </span>
                 </a>
                 <a 
-                href='about-section'
+                href='#about-section'
                 className='page-link'>
                     <span className='strike'>
                     About
                     </span>
                 </a>
                 <a 
-                href='contact-section'
+                href='#contact-section'
                 className='page-link'>
                     <span className='strike'>
                     Contact
